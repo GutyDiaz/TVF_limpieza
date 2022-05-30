@@ -100,7 +100,7 @@
     display: flex;
     /* border: 3px solid black; */
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 /*FIN GRID*/
 html{font-family: 'Montserrat', sans-serif;
@@ -127,7 +127,7 @@ html{font-family: 'Montserrat', sans-serif;
     text-align: center;
     display: inline-block; 
     position: relative;
-    animation: mymove 5s infinite;
+    animation: mymove 3s infinite;
     animation-direction:alternate-reverse;
 }
 #subtitle{
@@ -220,16 +220,18 @@ html{font-family: 'Montserrat', sans-serif;
         font-size: 45px; 
         /* margin-left: 50px; */
         text-align: center;
+        position: static;
+        display: block;
     }
     #subtitle{
         color: #fff;
-        font-size: 40px;
+        font-size: 35px;
         /* margin-left: 50px; */
         border:none;
         text-align: center;
     }
     #subtitle2{
-        color: #fff;
+        color: rgb(11, 143, 252);
         font-size: 30px;
         /* margin-left: 50px; */
         border:none;
@@ -263,8 +265,12 @@ html{font-family: 'Montserrat', sans-serif;
        flex-direction: column;
     }
     .elemento2{
-        display: flex;
        flex-direction: column;
+       gap: .1em;  
+    }
+    .header_link{
+        font-size: 15px;
+        text-decoration:underline ;
     }
     .cont_imag{
         display:grid;
@@ -306,8 +312,8 @@ html{font-family: 'Montserrat', sans-serif;
     }
 }
 /*FIN MEDIA Q */
+/*ANIMACIONES*/
 @keyframes mymove {
     from {left: 0px;}
-    to {left: 200px;}
-    from {right: 50px;}
+    to {left: 100px;}
 }
