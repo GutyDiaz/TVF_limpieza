@@ -5,43 +5,41 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>TVF</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
         <link rel= "stylesheet" href="./ccs/style.css">
         <link href="link"rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     </head>
-<body id="bottom">
-    <header>
-         <nav>
-            <div class="container">
-                <div class="elemento1">
-                    <a href="index.html"><img src="imagenes/tvflogo.png" width="100px" height="50px"></a>
+    <body id="bottom">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                    <a href="./index.html"><img src="./imagenes/tvflogo.png" width="100px" height="50px"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button> 
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="header_link" href="./menu/nosotros.html">Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="header_link" href="./menu/lineas.html">Lineas</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="header_link" href="./menu/productos.html">Productos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="header_link" href="./menu/contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-                    <div class="elemento2">
-                        <div>
-                            <li>
-                                <a class="header_link" href="menu/nosotros.html">Nosotros</a>
-                            </li>
-                        </div>
-                        <div>
-                            <li>
-                                <a class="header_link" href="menu/lineas.html">Lineas</a>
-                            </li>
-                        </div>
-                        <div>
-                            <li>
-                                <a class="header_link" href="menu/productos.html">Productos</a>
-                            </li>
-                        </div>
-                        <div>
-                             <li>
-                            <a class="header_link" href="menu/contacto.html">Contacto</a>
-                        </li>
-                        </div>
-                    </div>
-            </div>
-        </nav>    
-    </header>
+              </nav>    
+       </header>
     <main>
         <section>
             <div class="container2">
@@ -54,7 +52,33 @@
             <div  class="elemento5">
                 <h2 id="subtitle">Productos económicos, ecológicos y seguros.</h2>
             </div>
-                <article class="contenedor6">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <section class="carousel-inner">
+                  <article class="carousel-item active">
+                    <img src="./imagenes/izquierda1.jpg" class="d-block w-20" alt="...">
+                  </article>
+                  <article class="carousel-item">
+                    <img src="./imagenes/medio.jpg" class="d-block w-20" alt="...">
+                  </article>
+                  <article class="carousel-item">
+                    <img src="./imagenes/derecha1.jpg" class="d-block w-20" alt="...">
+                  </article>
+                </section>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+                <!-- <article class="contenedor6">
                     <div class="elemento6">
                         <div>
                             <img class="galery1" src="./imagenes/izquierda1.jpg"height=200px>
@@ -66,7 +90,7 @@
                             <img class="galery1" src="./imagenes/derecha1.jpg"height=200px>
                         </div>
                     </div>
-                </article>    
+                </article>     -->
                 <div class="elemento7">
                     <article class="text">
                         <p class="text_p">Ofrecemos la mejor gama de productos de higiene y mantenimiento industrial e institucional.</p>
