@@ -239,6 +239,7 @@ hr{
 #enviar {
     display: flex;
     align-items:start;
+    margin-top: var(--font);
 }
 
 /* INICIO MEDIA Q*/
