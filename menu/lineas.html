@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TVF</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel= "stylesheet" href="../ccs/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+    <link rel= "stylesheet" href="../css/translated.css">
     <link href="link"rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -39,23 +40,43 @@
         </nav>    
    </header>
     <main>
-        <section>
+        <section class="contenedorlineas">
             <h1 id="title">Nuestras Líneas</h1>
             <article>
-                <h2 class="lineas">Ropa</h2>
-                <p class="text_p">Jabón liquido, Suavizante, Quita manchas, Perfuminas, Jabón para ropa fina.</p>
+                <h2 class="lineas" id="izq">Ropa
+                    <span class="material-symbols-outlined icon"  >checkroom</span>
+                </h2>
+                <div class="izq">
+                    <p class="text_p">Jabón liquido, Suavizante, Quita manchas, Perfuminas, Jabón para ropa fina.</p>
+                    <img class="imag-li"src="../imagenes/ropa.jpeg" height="500px">
+                </div>
+            </article >
+            <article>
+                <h2 class="lineas" id="der">Hogar 
+                    <span class="material-symbols-outlined icon">home</span>
+                </h2>
+                <div class="der">
+                    <p class="text_p"> Desodorante p/piso, Detergente, Lavandina, Desengrasante, Limpiavidrios, Cera p/piso, Jabón líquido de manos.</p>
+                    <img class="imag-li" src="../imagenes/hogar.jpeg" height="500px">
+                </div>
+            </article>
+            <article >
+                <h2 class="lineas" id="izq">Automotor
+                    <span class="material-symbols-outlined icon">directions_car</span>
+                </h2>
+                <div class="izq">
+                    <p class="text_p">Shampoo, Limpia parabrisas, Revividor interior, Limpia tapizados, Desengrasante de motores.</p>
+                    <img class="imag-li" src="../imagenes/auto.jpeg" height="500px">
+                </div>
             </article>
             <article>
-                <h2 class="lineas">Hogar</h2>
-                <p class="text_p"> Desodorante/desinfectante para piso, Detergente, Lavandina, Desengrasante, Limpiavidrios, Cera para todo tipo de piso, Jabón líquido para manos.</p>
-            </article>
-            <article>
-                <h2 class="lineas">Automotor</h2>
-                <p class="text_p">Shampoo, Limpia parabrisas, Revividor interior, Limpia tapizados, Desengrasante de motores.</p>
-            </article>
-            <article>
-                <h2 class="lineas">Piscina</h2>
-                <p class="text_p">Cloro liquido, Cloro en pastillas, Decantador, Alguicida, Reguladores de PH.</p>
+                <h2 class="lineas" id="der">Piscina
+                    <span class="material-symbols-outlined icon">pool</span>
+                </h2>
+                <div class="der">
+                    <p class="text_p">Cloro liquido, Cloro en pastillas, Decantador, Alguicida, Reguladores de PH.</p>
+                    <img class="imag-li" src="../imagenes/pileta.jpeg" height="500px">
+                </div>               
             </article>
         </section>
     </main>
