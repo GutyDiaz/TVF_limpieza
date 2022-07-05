@@ -1,5 +1,8 @@
 @import "variables";
 
+.sector1{
+    margin: 0 50px 0 50px;
+}
 .container2{
     display:grid;
     grid-template-columns: repeat(3,1fr);
@@ -138,11 +141,47 @@ nav.navbar.navbar-expand-lg.bg-light {
     display:flex;
     justify-content: center;
     margin-top: 20px;
-    border: 4px solid $color-letra3
+    border: 4px solid $color-letra3;
+    grid-column: 2/2;
+    width: 400px;
+    height: 450px;
 }
 .carousel-inner{
-    align-items: center;
-    width:auto;
+    display: flex;
+    align-items: center;    
+}
+.conse1{
+    display: flex;
+    justify-content:flex-start;
+    font-size: 15px;
+    margin-top: 15px;
+    color:#fff;
+    margin-left: 5px;    
+}
+.text_1{
+    display: flex;
+    align-content: center;
+    font-size: 15px;
+    margin-top: 25px;
+    font-weight: bold;
+    margin-left: 5px;   
+}
+.text_2{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+.text_3{
+    display: flex;
+    justify-content:end;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.cont1{ 
+    border: 2px solid #fff;
+    margin: 15px 
 }
 .container_foot{
     display:grid;
@@ -296,6 +335,9 @@ nav.navbar.navbar-expand-lg.bg-light {
 }
 /* INICIO MEDIA Q*/
 @media (max-width: 480px){
+    .sector1{
+        margin: 0 10px 0 10px;
+    }
     #title{
         color:$color-letra;
         font-size: 30px; 
@@ -305,7 +347,7 @@ nav.navbar.navbar-expand-lg.bg-light {
     }
     #subtitle{
         color:$color-letra;
-        font-size: 25px;
+        font-size: 20px;
         border:none;
         text-align: center;
     }
@@ -363,6 +405,8 @@ nav.navbar.navbar-expand-lg.bg-light {
            justify-content: center;
            margin-top: 20px;
            border: 4px solid $color-letra3;
+            width: 200px;
+            height: 250px;
         }
         .carousel-item img{
            width: 200px;
@@ -460,6 +504,41 @@ nav.navbar.navbar-expand-lg.bg-light {
         padding-top: 20px;
         font-weight: bold;
     }
+    
+.conse1{
+    display: flex;
+    justify-content:flex-start;
+    font-size: 10px;
+    margin-top: 15px;
+    color:#fff;
+    margin-left: 5px;    
+}
+.text_1{
+    display: flex;
+    align-content: center;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 5px;   
+    margin-right: 5px;
+}
+.text_2{
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.text_3{
+    display: flex;
+    justify-content:center;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.cont1{ 
+    border: 2px solid #fff;
+    margin: 15px 
+}
 }
 @media (max-width: 800px){
     .body{
