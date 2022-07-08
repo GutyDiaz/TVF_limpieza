@@ -64,6 +64,7 @@
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   gap: .1em;
+  margin-top: 60px;
   margin-left: 30px;
   padding-top: 30px;
   justify-items: center; }
@@ -122,13 +123,7 @@ nav.navbar.navbar-expand-lg.bg-light {
 
 #subtitle {
   color: #2b2b2b;
-  font-size: 45px;
-  text-align: center;
-  padding: 50px; }
-
-#subtitle2 {
-  color: #2b2b2b;
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
   padding: 50px; }
 
@@ -244,6 +239,13 @@ nav.navbar.navbar-expand-lg.bg-light {
   margin-left: 10px;
   text-align: center; }
 
+.text_p1 {
+  color: #fff;
+  font-size: 30px;
+  margin-left: 10px;
+  text-align: center;
+  margin-top: 60px; }
+
 .lineas {
   color: #fff;
   font-size: 50px;
@@ -271,7 +273,7 @@ nav.navbar.navbar-expand-lg.bg-light {
   justify-content: flex-start;
   flex-wrap: wrap;
   align-content: center;
-  margin: 10px; }
+  margin-top: 60px; }
 
 .der {
   display: flex;
@@ -306,7 +308,8 @@ nav.navbar.navbar-expand-lg.bg-light {
   color: #fff;
   font-size: 30px;
   padding-top: 30px;
-  margin-left: 10px; }
+  margin-left: 10px;
+  margin-top: 60px; }
 
 #text_contacto2 {
   color: #fff;
@@ -319,6 +322,18 @@ nav.navbar.navbar-expand-lg.bg-light {
   font-size: 30px;
   padding-top: 50px;
   margin-left: 10px; }
+
+#nombre {
+  display: flex;
+  width: 100%; }
+
+#apellido {
+  display: flex;
+  width: 100%; }
+
+#correo {
+  display: flex;
+  width: 100%; }
 
 /* INICIO MEDIA Q*/
 @media (max-width: 480px) {
