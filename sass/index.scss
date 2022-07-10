@@ -183,7 +183,7 @@ nav.navbar.navbar-expand-lg.bg-light {
 }
 .cont1{ 
     border: 2px solid #fff;
-    margin: 15px 
+    margin:15px 0 60px 0 
 }
 .container_foot{
     display:grid;
@@ -201,12 +201,10 @@ nav.navbar.navbar-expand-lg.bg-light {
         align-items: center;
     }
     .item2{
-        grid-column: 3/3;
         gap:2em;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 50px;
     }  
     .item3{
         grid-column: 1/6;
@@ -374,12 +372,6 @@ nav.navbar.navbar-expand-lg.bg-light {
         border:none;
         text-align: center;
     }
-    #subtitle2{
-        color: $color-letra;
-        font-size: 30px;
-        border:none;
-        text-align: center;
-    }
     .lineas{
         color:$color-letra2;
         font-size: 30px;
@@ -395,6 +387,14 @@ nav.navbar.navbar-expand-lg.bg-light {
         color:$color-letra;
         font-size: $tamaño-medi;
         text-align: center;
+        margin-left:0px
+    }
+    .text_p1{
+        color:$color-letra;
+        font-size: $tamaño-medi;
+        text-align: center;
+        margin-left:0px;
+        margin-top:50px;
     }
     .header_link{
         color: $color-letra;
@@ -410,10 +410,18 @@ nav.navbar.navbar-expand-lg.bg-light {
         margin-left: 3px;
         font-size: $tamaño-medi;
     }
-    .container2 .elemento5{
+    .container2 div.elemento5{
+        display: flex;
         border:none;
         color:$color-letra3;
+        align-items: center;
     }
+    .container2 div.elemento6{
+      margin-top:0px
+    }
+    .container2 div.elemento0{
+        padding-top:0px
+    }       
     .elemento8{
         align-content: center;
     }
@@ -459,26 +467,19 @@ nav.navbar.navbar-expand-lg.bg-light {
         gap:.1em;
         align-items: center;
         padding: 0px;
-        margin-left: 50px;
-
-        .imag1{
-            height: 140px;
+        margin-right: 0px;
+        
+        & div{
+            margin:0 0 10px 0;
+        
         }
-        .imag2{
-            height: 140px;
-        }
-        .imag3{
-            height: 140px;
-        }
-        .imag4{
-            height: 140px;
-        }
-        .imag5{
-            height: 140px;
-        }
-        .imag6{
-            height: 140px;
-        }
+    }
+    .img.iagenes1{
+        width: 100px;
+    }
+    div.card-body{
+        font-size: 15px;
+        margin:0px;
     }
     .container_foot{
         width: auto;
@@ -506,6 +507,7 @@ nav.navbar.navbar-expand-lg.bg-light {
         color:$color-letra;
         font-size: 15px;
         justify-content: center;
+        margin-left: 0px;    
     }
     #text_contacto1{
         display: flex;
@@ -513,6 +515,8 @@ nav.navbar.navbar-expand-lg.bg-light {
         font-size: 15px;
         justify-content: center;
         text-decoration: underline;
+        margin-top: 5px;
+        margin-left: 0px;
     }
     #text_contacto2{
         display: flex;
@@ -526,42 +530,58 @@ nav.navbar.navbar-expand-lg.bg-light {
         font-size: 15px;
         padding-top: 20px;
         font-weight: bold;
-    }
-    
-.conse1{
+    }   
+    .conse1{
     display: flex;
     justify-content:flex-start;
     font-size: 10px;
     margin-top: 15px;
     color:#fff;
     margin-left: 5px;    
-}
-.text_1{
+    }
+    .text_1{
     display: flex;
     align-content: center;
     font-size: 10px;
     font-weight: bold;
     margin-left: 5px;   
     margin-right: 5px;
-}
-.text_2{
+    }
+    .text_2{
     display: flex;
     justify-content: center;
     font-size: 10px;
     font-weight: bold;
     margin-left: 5px;
-}
-.text_3{
+    }
+    .text_3{
     display: flex;
     justify-content:center;
     font-size: 10px;
     font-weight: bold;
     margin-left: 5px;
-}
-.cont1{ 
+    }
+    .cont1{ 
     border: 2px solid #fff;
-    margin: 15px 
-}
+    margin-bottom: 25px 
+    }
+    .cont_imag div{
+        display: flex;
+        justify-content: center;
+        width: 250px;
+        height: auto;
+        margin: 10px 0 0 0 
+    }
+    .div.card{
+        margin-top: 50px;
+    }
+    h2#subtitle.elemento5{
+        margin-bottom: 50px;
+    }
+    .card-text{
+        font-size: 15px;
+        font-weight: bold;
+    }
 }
 @media (max-width: 800px){
     .body{

@@ -170,7 +170,7 @@ nav.navbar.navbar-expand-lg.bg-light {
 
 .cont1 {
   border: 2px solid #fff;
-  margin: 15px; }
+  margin: 15px 0 60px 0; }
 
 .container_foot {
   display: grid;
@@ -185,12 +185,10 @@ nav.navbar.navbar-expand-lg.bg-light {
     justify-content: center;
     align-items: center; }
   .container_foot .item2 {
-    grid-column: 3/3;
     gap: 2em;
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin: 50px; }
+    justify-content: center; }
   .container_foot .item3 {
     grid-column: 1/6;
     margin-top: 15px; }
@@ -350,11 +348,6 @@ nav.navbar.navbar-expand-lg.bg-light {
     font-size: 20px;
     border: none;
     text-align: center; }
-  #subtitle2 {
-    color: #fff;
-    font-size: 30px;
-    border: none;
-    text-align: center; }
   .lineas {
     color: #0b8ffc;
     font-size: 30px;
@@ -367,7 +360,14 @@ nav.navbar.navbar-expand-lg.bg-light {
   .text_p {
     color: #fff;
     font-size: 15px;
-    text-align: center; }
+    text-align: center;
+    margin-left: 0px; }
+  .text_p1 {
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 50px; }
   .header_link {
     color: #fff;
     font-size: 10px;
@@ -379,9 +379,15 @@ nav.navbar.navbar-expand-lg.bg-light {
     color: #fff;
     margin-left: 3px;
     font-size: 15px; }
-  .container2 .elemento5 {
+  .container2 div.elemento5 {
+    display: flex;
     border: none;
-    color: #2b2b2b; }
+    color: #2b2b2b;
+    align-items: center; }
+  .container2 div.elemento6 {
+    margin-top: 0px; }
+  .container2 div.elemento0 {
+    padding-top: 0px; }
   .elemento8 {
     align-content: center; }
   .elemento0 {
@@ -417,19 +423,14 @@ nav.navbar.navbar-expand-lg.bg-light {
     gap: .1em;
     align-items: center;
     padding: 0px;
-    margin-left: 50px; }
-    .cont_imag .imag1 {
-      height: 140px; }
-    .cont_imag .imag2 {
-      height: 140px; }
-    .cont_imag .imag3 {
-      height: 140px; }
-    .cont_imag .imag4 {
-      height: 140px; }
-    .cont_imag .imag5 {
-      height: 140px; }
-    .cont_imag .imag6 {
-      height: 140px; }
+    margin-right: 0px; }
+    .cont_imag div {
+      margin: 0 0 10px 0; }
+  .img.iagenes1 {
+    width: 100px; }
+  div.card-body {
+    font-size: 15px;
+    margin: 0px; }
   .container_foot {
     width: auto;
     grid-template-columns: none; }
@@ -449,13 +450,16 @@ nav.navbar.navbar-expand-lg.bg-light {
     display: flex;
     color: #fff;
     font-size: 15px;
-    justify-content: center; }
+    justify-content: center;
+    margin-left: 0px; }
   #text_contacto1 {
     display: flex;
     color: #fff;
     font-size: 15px;
     justify-content: center;
-    text-decoration: underline; }
+    text-decoration: underline;
+    margin-top: 5px;
+    margin-left: 0px; }
   #text_contacto2 {
     display: flex;
     color: #fff;
@@ -495,7 +499,20 @@ nav.navbar.navbar-expand-lg.bg-light {
     margin-left: 5px; }
   .cont1 {
     border: 2px solid #fff;
-    margin: 15px; } }
+    margin-bottom: 25px; }
+  .cont_imag div {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: auto;
+    margin: 10px 0 0 0; }
+  .div.card {
+    margin-top: 50px; }
+  h2#subtitle.elemento5 {
+    margin-bottom: 50px; }
+  .card-text {
+    font-size: 15px;
+    font-weight: bold; } }
 
 @media (max-width: 800px) {
   .body {
